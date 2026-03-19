@@ -1,0 +1,40 @@
+INSERT INTO local_breaches (target, breach_source, severity, leak_score, leak_date) VALUES
+
+('test@gmail.com','LinkedIn','LOW',25,'2021-05-10'),
+('test@gmail.com','Adobe','HIGH',75,'2020-11-22'),
+
+('user123@yahoo.com','Dropbox','MEDIUM',50,'2022-01-15'),
+('user123@yahoo.com','Canva','HIGH',70,'2023-02-10'),
+
+('admin@company.com','Facebook','HIGH',80,'2021-08-12'),
+('admin@company.com','Twitter','MEDIUM',55,'2022-04-19'),
+
+('john.doe@gmail.com','MyFitnessPal','HIGH',78,'2020-03-25'),
+('john.doe@gmail.com','Zynga','LOW',30,'2019-07-11'),
+
+('jane@gmail.com','Snapchat','HIGH',85,'2022-06-14'),
+('jane@gmail.com','Tumblr','MEDIUM',60,'2021-09-09'),
+
+('192.168.1.1','Botnet Activity','CRITICAL',95,'2024-01-01'),
+('192.168.1.1','Port Scan','HIGH',75,'2024-02-11'),
+
+('10.0.0.5','Malware Host','CRITICAL',98,'2024-03-05'),
+('10.0.0.5','DDoS Node','HIGH',85,'2024-02-20'),
+
+('172.16.0.3','Suspicious Traffic','MEDIUM',55,'2023-11-12'),
+('172.16.0.3','Brute Force','HIGH',78,'2024-01-22'),
+
+('http://phishing.com','Phishing Campaign','CRITICAL',92,'2024-02-02'),
+('http://phishing.com','Credential Theft','CRITICAL',96,'2024-02-03'),
+
+('https://fakebank.com','Fake Login','CRITICAL',97,'2024-01-15'),
+('https://fakebank.com','Data Theft','HIGH',88,'2024-01-18'),
+
+('http://malware-site.com','Trojan Distribution','CRITICAL',99,'2024-03-01'),
+('http://malware-site.com','Drive-by Download','HIGH',87,'2024-03-03'),
+
+('user@test.com','LinkedIn','LOW',20,'2021-02-11'),
+('user@test.com','Adobe','MEDIUM',50,'2020-09-09'),
+
+('secure@bank.com','Bank Leak','CRITICAL',100,'2023-12-01'),
+('secure@bank.com','Credential Dump','HIGH',85,'2023-12-02');

@@ -1,0 +1,17 @@
+# Java
+*.class
+*.log
+
+# Build
+target/
+out/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# DB / secrets
+.env
