@@ -18,7 +18,7 @@ A cybersecurity web application that analyzes digital footprints and detects pot
 ## 📊 Modules
 - Scanner
 - Result Analyzer
-- Dashboard (Command Center)
+- Dashboard
 
 ## 🎯 Purpose
 Built for cybersecurity awareness and academic demonstration.
