@@ -15,7 +15,7 @@ import java.util.regex.*;
 @WebServlet("/scan")
 public class ScanServlet extends HttpServlet {
 
-    private static final String API_KEY = "d4acaa68f4f52dde1df2f8c7e54d7d297b87672";
+    private static final String API_KEY = "your API key here";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
